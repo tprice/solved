@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  statement: MyString
+  description: MyText
+  status: false
+
+two:
+  name: MyString
+  statement: MyString
+  description: MyText
+  status: false

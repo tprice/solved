@@ -1,0 +1,13 @@
+ <%= form_for([@solution, @solution.steps.build]) do |f| %>
+  <div class="field">
+    <%= f.label :step %><br />
+    <%= f.text_field :step %>
+  </div>
+   <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

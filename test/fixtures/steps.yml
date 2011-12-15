@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  step: MyString
+  description: MyText
+  solution: 
+
+two:
+  step: MyString
+  description: MyText
+  solution: 

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  solver: MyString
+  problem: 
+
+two:
+  solver: MyString
+  problem: 

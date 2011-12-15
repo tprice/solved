@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @problem.name %>
+</p>
+
+<p>
+  <b>Statement:</b>
+  <%= @problem.statement %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @problem.description %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @problem.status %>
+</p>
+
+<h2>Solutions</h2>
+<%= render @problem.solutions %>
+
+<h2>Add a solution:</h2>
+<%= render "solutions/form" %>
+
+<br />
+
+<%= link_to 'Edit', edit_problem_path(@problem) %> |
+<%= link_to 'Back', problems_path %>

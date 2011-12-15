@@ -1,0 +1,9 @@
+ <%= form_for([@problem, @problem.solutions.build]) do |f| %>
+  <div class="field">
+    <%= f.label :solver %><br />
+    <%= f.text_field :solver %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
